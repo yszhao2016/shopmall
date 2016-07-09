@@ -7,5 +7,6 @@
 	<body>
 		<h1>Index</h1>
 		<p>wahaha</p>
+		<div align="center">whh</div>
 	</body>
 </html>
