@@ -35,9 +35,16 @@ git reflog查看命令历史
 工作区和暂存区
 
 
+git diff HEAD^   --  跟目录   显示比较上一次修改的地方
+git diff HEAD^  --  a.txt
 
 
 
+
+git checkout -- file可以丢弃工作区的修改
+命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销
+总之，就是让这个文件回到最近一次git commit或git add时的状态。
+git checkout -- readme.txt
 
 
 
